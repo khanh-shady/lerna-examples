@@ -6,13 +6,13 @@ module.exports = {
     entry: './src/index.js',
     externals: [nodeExternals()],
     output: {
-        // filename: 'index.js',
-        // path: path.resolve(__dirname, 'dist'),
+        filename: 'index.js',
+        path: path.resolve(__dirname, 'dist'),
         library: {
             name: 'button',
             type: 'umd'
         },
-        libraryTarget: 'commonjs'
+        libraryTarget: 'umd'
     },
     plugins: [new CleanWebpackPlugin()],
     module: {

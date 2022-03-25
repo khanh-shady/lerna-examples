@@ -1,6 +1,6 @@
 {
   "name": "@khanh.nguyen95/ui-button",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.jsx",
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

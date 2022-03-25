@@ -1,6 +1,6 @@
 {
   "name": "@khanh.nguyen95/ui-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "create-lib": "NAME=$WORK_SPACE yarn create-folder && NAME=$WORK_SPACE yarn init-workspace && NAME=$WORK_SPACE yarn install-deps",

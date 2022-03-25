@@ -1,5 +1,5 @@
-48 error Error: Command failed with exit code 128: git tag v1.0.4 -m v1.0.4
-48 error fatal: tag 'v1.0.4' already exists
+48 error Error: Command failed with exit code 128: git tag v1.0.0 -m v1.0.0
+48 error fatal: tag 'v1.0.0' already exists
 48 error     at makeError (/home/khanh/Workspace/lerna-examples/node_modules/execa/lib/error.js:60:11)
 48 error     at handlePromise (/home/khanh/Workspace/lerna-examples/node_modules/execa/index.js:118:26)
 48 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)

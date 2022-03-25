@@ -3,6 +3,7 @@
   "version": "2.0.14",
   "description": "",
   "main": "index.js",
+  "module": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook"

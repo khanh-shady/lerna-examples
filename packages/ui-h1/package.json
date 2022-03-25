@@ -2,15 +2,20 @@
   "name": "@khanh.nguyen95/ui-h1",
   "version": "2.0.15",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start-storybook"
+    "start": "start-storybook",
+    "build": "webpack"
   },
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-react": "^7.16.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@khanh.nguyen/ui-button",
+  "name": "@khanh.nguyen95/ui-button",
   "version": "2.0.9",
   "description": "",
   "main": "index.js",
@@ -30,5 +30,5 @@
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
   },
-  "gitHead": "62412b50c002a73abd1151c7658cccf8d051218c"
+  "gitHead": "906b251622f9be47df7332bc689d755e8d1f0f88"
 }

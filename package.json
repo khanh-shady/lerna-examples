@@ -1,0 +1,17 @@
+{
+  "name": "@khanh.nguyen95/ui-components",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "create-lib": "NAME=$WORK_SPACE yarn create-folder && NAME=$WORK_SPACE yarn init-workspace && NAME=$WORK_SPACE yarn install-deps",
+    "create-folder": "cd packages && mkdir -p $NAME",
+    "init-workspace": "cd packages/$NAME && npm init",
+    "install-deps": "yarn workspace $NAME add react react-dom && yarn workspace $NAME add --dev @babel/core @babel/preset-env @babel/preset-react babel-loader node-sass sass-loader @storybook/react @storybook/addon-knobs webpack webpack-cli webpack-node-externals clean-webpack-plugin path"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

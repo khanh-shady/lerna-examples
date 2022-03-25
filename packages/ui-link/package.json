@@ -1,5 +1,5 @@
 {
-  "name": "ui-link",
+  "name": "@khanh.nguyen/ui-link",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -30,5 +30,5 @@
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
   },
-  "gitHead": "5d6dbfd4f940ef9119a1c1e4e64f952c6e193334"
+  "gitHead": "97a135d5c390e42b80cc91dc2bb25947c77a6821"
 }

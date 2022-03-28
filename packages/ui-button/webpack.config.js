@@ -3,7 +3,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-    // entry: ['./src/index.stories.jsx', './src/index.jsx'],
     entry: {
         'component': './src/index.jsx',
         'storybook': './src/index.stories.jsx'

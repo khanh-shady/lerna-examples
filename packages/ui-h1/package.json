@@ -2,7 +2,7 @@
   "name": "@khanh.nguyen95/ui-h1",
   "version": "2.0.23",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/component.index.js",
   "module": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

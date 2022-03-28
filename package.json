@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
+    "publish": "lerna publish",
     "create-lib": "NAME=$WORK_SPACE yarn create-folder && NAME=$WORK_SPACE yarn init-workspace && NAME=$WORK_SPACE yarn install-deps",
     "create-folder": "cd packages && mkdir -p $NAME",
     "init-workspace": "cd packages/$NAME && npm init",

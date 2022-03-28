@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 
 const H1 = ({ message = 'Hello world' }) => (
-   <h1 className="h1">{message}</h1>
+   <h1 className="h1">{message + "2"}</h1>
 );
 
 export default H1;

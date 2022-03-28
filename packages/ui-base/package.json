@@ -1,6 +1,6 @@
 {
   "name": "@khanh.nguyen95/ui-base",
-  "version": "2.0.25",
+  "version": "2.0.26",
   "description": "",
   "main": "src/index.jsx",
   "module": "src/index.jsx",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
-    "@khanh.nguyen95/ui-button": "^2.0.24",
+    "@khanh.nguyen95/ui-button": "^2.0.26",
     "@khanh.nguyen95/ui-h1": "^2.0.24",
     "@khanh.nguyen95/ui-link": "^2.0.24",
     "react": "^17.0.2",

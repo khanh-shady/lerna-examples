@@ -11,7 +11,7 @@
     "build": "webpack"
   },
   "files": [
-    "dist"
+    "dist", "src"
   ],
   "author": "",
   "license": "MIT",

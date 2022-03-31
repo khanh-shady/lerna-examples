@@ -1,6 +1,7 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
@@ -18,7 +19,10 @@ module.exports = {
         libraryTarget: 'umd'
     },
     mode: 'production',
-    plugins: [new CleanWebpackPlugin()],
+    plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin({
+        filename: "[name].[contenthash].css",
+        chunkFilename: "[id].[contenthash].css",
+    })],
     module: {
         rules: [
             {
@@ -33,7 +37,7 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
                 include: path.resolve(__dirname, './src')
             }
         ]

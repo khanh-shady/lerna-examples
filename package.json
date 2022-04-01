@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "publish": "lerna publish",
+    "build": "yarn workspace @khanh.nguyen95/ui-button build && yarn workspace @khanh.nguyen95/ui-link build && yarn workspace @khanh.nguyen95/ui-h1 build",
     "create-lib": "NAME=$WORK_SPACE yarn create-folder && NAME=$WORK_SPACE yarn init-workspace && NAME=$WORK_SPACE yarn install-deps",
     "create-folder": "cd packages && mkdir -p $NAME",
     "init-workspace": "cd packages/$NAME && npm init",

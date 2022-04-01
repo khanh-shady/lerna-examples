@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        'component': './src/index.jsx',
-        'storybook': './src/index.stories.jsx'
+        'component': './src/h1.jsx',
+        'storybook': './src/h1.stories.jsx'
     },
     externals: [nodeExternals()],
     output: {
@@ -45,7 +45,7 @@ module.exports = {
                     loader: 'css-loader',
                     options: {
                         modules: {
-                            localIdentName: "[path][name][file][folder]__[local]--[hash:base64:5]",
+                            localIdentName: "[contenthash:5]",
                         }
                     }
                 }, 'sass-loader'],

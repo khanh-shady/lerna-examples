@@ -41,7 +41,14 @@ module.exports = {
                     loader: MiniCssExtractPlugin.loader, options: {
                         esModule: false,
                     },
-                }, 'css-loader', 'sass-loader'],
+                }, {
+                    loader: 'css-loader',
+                    options: {
+                        modules: {
+                            localIdentName: "[path][name]__[local]--[hash:base64:5]",
+                        }
+                    }
+                }, 'sass-loader'],
                 include: path.resolve(__dirname, './src')
             }
         ]

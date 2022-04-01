@@ -37,7 +37,18 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+                use: [{
+                    loader: MiniCssExtractPlugin.loader, options: {
+                        esModule: false,
+                    },
+                }, {
+                    loader: 'css-loader',
+                    options: {
+                        modules: {
+                            localIdentName: "[path][name]__[local]--[hash:base64:5]",
+                        }
+                    }
+                }, 'sass-loader'],
                 include: path.resolve(__dirname, './src')
             }
         ]

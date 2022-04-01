@@ -3,7 +3,7 @@
   "version": "2.0.35",
   "description": "",
   "main": "dist/component.index.js",
-  "module": "src/index.jsx",
+  "module": "dist/component.index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook",

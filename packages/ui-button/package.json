@@ -2,8 +2,8 @@
   "name": "@khanh.nguyen95/ui-button",
   "version": "2.0.40",
   "description": "",
-  "main": "dist/component.index.jsx",
-  "module": "src/index.jsx",
+  "main": "dist/component.index.js",
+  "module": "dist/component.index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook",
